@@ -28,13 +28,13 @@ let package = Package(
             name: "MAJailBreakCheck",
             cSettings: [
                 .unsafeFlags(["-fstack-protector-strong"])
-            ]),
+            ],
             cxxSettings: [
                 .unsafeFlags(["-fstack-protector-strong"]) // Enable stack protection for C code
-            ]),
+            ],
             swiftSettings: [
                 .unsafeFlags(["-fstack-protector-strong"]) // Enable stack protection for C code
-            ]),    
+            ],    
             dependencies: [],
             path: "Sources/MAJailBreakCheck")
     ]
