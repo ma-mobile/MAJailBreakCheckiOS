@@ -1,2 +1,2 @@
 # MAJailBreakCheckiOS
-iOS library to verify whether iOS device is jailbroken and vulnerable
+iOS library to identify whether iOS device is jailbroken and therefore vulnerable
