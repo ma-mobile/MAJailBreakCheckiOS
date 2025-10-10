@@ -14,7 +14,6 @@
 		2D4DA06B2CA2AAEE00900EDC /* DetectJailBreakDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4DA0672CA2AAEE00900EDC /* DetectJailBreakDevice.swift */; };
 		2D4DA06C2CA2AAEE00900EDC /* FridaDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4DA0682CA2AAEE00900EDC /* FridaDetection.swift */; };
 		2D4DA06E2CA2AB2E00900EDC /* MAJailBreakCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4DA06D2CA2AB2E00900EDC /* MAJailBreakCheck.swift */; };
-		2DF4DCEC2E9908400017B55A /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF4DCEB2E99083B0017B55A /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -161,7 +160,6 @@
 				2D4DA06B2CA2AAEE00900EDC /* DetectJailBreakDevice.swift in Sources */,
 				2D4DA0692CA2AAEE00900EDC /* FilePathToCheck.swift in Sources */,
 				2D4DA06E2CA2AB2E00900EDC /* MAJailBreakCheck.swift in Sources */,
-				2DF4DCEC2E9908400017B55A /* Package.swift in Sources */,
 				2D4DA06A2CA2AAEE00900EDC /* TypesOfJailBreakCheckAPI.swift in Sources */,
 				2D4DA05D2CA2AA5500900EDC /* MAJailBreakCheck.docc in Sources */,
 				2D4DA06C2CA2AAEE00900EDC /* FridaDetection.swift in Sources */,
