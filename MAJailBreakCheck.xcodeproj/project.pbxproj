@@ -14,6 +14,7 @@
 		2D4DA06B2CA2AAEE00900EDC /* DetectJailBreakDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4DA0672CA2AAEE00900EDC /* DetectJailBreakDevice.swift */; };
 		2D4DA06C2CA2AAEE00900EDC /* FridaDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4DA0682CA2AAEE00900EDC /* FridaDetection.swift */; };
 		2D4DA06E2CA2AB2E00900EDC /* MAJailBreakCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4DA06D2CA2AB2E00900EDC /* MAJailBreakCheck.swift */; };
+		2DF4DCEC2E9908400017B55A /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF4DCEB2E99083B0017B55A /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		2D4DA0672CA2AAEE00900EDC /* DetectJailBreakDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetectJailBreakDevice.swift; sourceTree = "<group>"; };
 		2D4DA0682CA2AAEE00900EDC /* FridaDetection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FridaDetection.swift; sourceTree = "<group>"; };
 		2D4DA06D2CA2AB2E00900EDC /* MAJailBreakCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAJailBreakCheck.swift; sourceTree = "<group>"; };
+		2DF4DCEB2E99083B0017B55A /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,8 +43,9 @@
 		2D4DA04E2CA2AA5500900EDC = {
 			isa = PBXGroup;
 			children = (
-				2D4DA05A2CA2AA5500900EDC /* MAJailBreakCheck */,
+				2D4DA05A2CA2AA5500900EDC /* Sources */,
 				2D4DA0592CA2AA5500900EDC /* Products */,
+				2DF4DCEB2E99083B0017B55A /* Package.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,26 +57,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D4DA05A2CA2AA5500900EDC /* MAJailBreakCheck */ = {
+		2D4DA05A2CA2AA5500900EDC /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				2D4DA0642CA2AAC200900EDC /* CheckJailBreak */,
+				2D4DA0642CA2AAC200900EDC /* MAJailBreakCheck */,
 				2D4DA05B2CA2AA5500900EDC /* MAJailBreakCheck.h */,
 				2D4DA05C2CA2AA5500900EDC /* MAJailBreakCheck.docc */,
-				2D4DA06D2CA2AB2E00900EDC /* MAJailBreakCheck.swift */,
 			);
-			path = MAJailBreakCheck;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		2D4DA0642CA2AAC200900EDC /* CheckJailBreak */ = {
+		2D4DA0642CA2AAC200900EDC /* MAJailBreakCheck */ = {
 			isa = PBXGroup;
 			children = (
+				2D4DA06D2CA2AB2E00900EDC /* MAJailBreakCheck.swift */,
 				2D4DA0672CA2AAEE00900EDC /* DetectJailBreakDevice.swift */,
 				2D4DA0652CA2AAEE00900EDC /* FilePathToCheck.swift */,
 				2D4DA0682CA2AAEE00900EDC /* FridaDetection.swift */,
 				2D4DA0662CA2AAEE00900EDC /* TypesOfJailBreakCheckAPI.swift */,
 			);
-			path = CheckJailBreak;
+			path = MAJailBreakCheck;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +161,7 @@
 				2D4DA06B2CA2AAEE00900EDC /* DetectJailBreakDevice.swift in Sources */,
 				2D4DA0692CA2AAEE00900EDC /* FilePathToCheck.swift in Sources */,
 				2D4DA06E2CA2AB2E00900EDC /* MAJailBreakCheck.swift in Sources */,
+				2DF4DCEC2E9908400017B55A /* Package.swift in Sources */,
 				2D4DA06A2CA2AAEE00900EDC /* TypesOfJailBreakCheckAPI.swift in Sources */,
 				2D4DA05D2CA2AA5500900EDC /* MAJailBreakCheck.docc in Sources */,
 				2D4DA06C2CA2AAEE00900EDC /* FridaDetection.swift in Sources */,
