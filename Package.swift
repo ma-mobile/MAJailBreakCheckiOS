@@ -1,10 +1,9 @@
-//
+// swift-tools-version: 5.9
 //  Package.swift
 //  MAJailBreakCheck
 //
 //  Created by Harikrishnan V S (MA-IN) on 10/10/25.
 //
-// swift-tools-version: 5.9
 import PackageDescription
 
 let package = Package(
